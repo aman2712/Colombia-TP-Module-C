@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+@layer components{
+    .btn{
+        @apply bg-gray-800 px-8 py-2 w-full rounded-md mt-5 hover:bg-black transition duration-300
+    }
+
+    td, th{
+        @apply border-b border-gray-700 text-center p-2
+    }
+}
